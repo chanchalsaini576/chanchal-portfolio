@@ -288,7 +288,29 @@
 
     .btn {
       min-height: 52px;
-    }
+    } .contact-links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  min-height: 52px;
+}
+
+/* YAHAN SE NAYA CODE PASTE KARO */
+
+.contact-links a:nth-child(1),
+.contact-links a:nth-child(3) {
+  color: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+}
+
+.contact-links a:nth-child(2),
+.contact-links a:nth-child(4) {
+  color: var(--accent-purple);
+  border-color: var(--accent-purple);
+}
 @media (max-width: 900px) {
       .hero-grid {
         grid-template-columns: 360px 1fr;
@@ -427,10 +449,11 @@
           Final-year CSE student (CGPA: 8.12) specializing in Data Analytics, UAV Telemetry Operations, and Web Development. Certified by NIELIT & ISEA in Cyber Security Hygiene practices and Grade 'A' Drone Pilot (NCC).
         </p>
         <div class="contact-links">
-          <a href="mailto:sainichanchal576@gmail.com" class="btn">✉ Email Me</a>
-          <a href="https://github.com/chanchalsaini576" target="_blank" class="btn btn-purple">💻 GitHub</a>
-          <a href="https://www.linkedin.com/in/chanchal-saini-7b561b29a/"  class="btn">🔗 LinkedIn</a>
-          <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-purple">📄 Resume</a>
+         <a href="mailto:sainichanchal576@gmail.com" target="_blank" class="btn">✉ Email Me</a>
+         <a href="https://github.com/chanchalsaini576"target="_blank"class="btn">💻 GitHub</a>
+         <a href="https://www.linkedin.com/in/chanchal-saini-7b561b29a/"target="_blank" class="btn">🔗 LinkedIn</a>
+         <a href="resume.pdf" target="_blank" class="btn">📄 Resume</a>
+
         </div>
       </div>
     </div>
